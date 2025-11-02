@@ -145,6 +145,7 @@ img {
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
+  cursor: pointer;
 }
 
 
@@ -152,7 +153,6 @@ img {
 .main-button:hover,
 .main-button:focus {
   background-color: #404bbf;
-  cursor: pointer;
 }
 
 .visually-hidden {
@@ -251,6 +251,10 @@ overflow: hidden;
   color: #434455;
 }
 
+.portfolio-container {
+  margin-bottom: 72px;
+}
+
 .portfolio-title {
   font-size: 36px;
   line-height: 1.11;
@@ -258,9 +262,11 @@ overflow: hidden;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .portfolio-list {
+  row-gap: 48px;
   display: flex;
   flex-wrap: wrap;
   margin: 0;
@@ -274,7 +280,6 @@ overflow: hidden;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px
 }
 
 .portfolio-image {
@@ -313,10 +318,10 @@ overflow: hidden;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-logo-part {
-  display: inline-block;
   color: #f4f4fd;
   margin-bottom: 16px;
 }
