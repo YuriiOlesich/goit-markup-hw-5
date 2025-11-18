@@ -513,6 +513,7 @@ overflow: hidden;
 }
 
 .footer-socials-title {
+  margin-left: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -552,6 +553,10 @@ overflow: hidden;
 
 .footer-socials-icon {
   fill: #f4f4fd;
+}
+
+.form-container {
+  margin-left: 80px;
 }
 
 .form-text {
@@ -600,11 +605,18 @@ overflow: hidden;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  margin-left: 24px;
   color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
   border: none;
   border-radius: 4px;
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #31d0aa;
+  transition: background-color 205ms ease;
 }
 
 .button-icon {
