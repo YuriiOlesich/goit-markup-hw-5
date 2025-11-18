@@ -740,6 +740,7 @@ margin-bottom: 16px;
 }
 
 .icon-modal {
+  margin-top: 8px;
   position: absolute;
   left: 16px;
   top: 50%;
@@ -777,7 +778,7 @@ margin-bottom: 16px;
   outline: none;
 }
 
-checkbox-wrapper {
+.checkbox-wrapper {
   margin-bottom: 24px;
 }
 
@@ -822,12 +823,17 @@ checkbox-wrapper {
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-icon {
-  fill: #ffffff;
+  fill: #F4F4FD;
 }
 
+
 .privacy-link {
-  color: #4D5AE5;
+  color: #4d5ae5;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
   text-decoration: underline;
 }
+
 
 
