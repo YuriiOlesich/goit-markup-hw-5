@@ -703,10 +703,11 @@ color: #2e2f42;
 margin-bottom: 16px;
 }
 
-.modal-form input {
+.modal-form {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 8px;
 }
-
 
 .user-label {
   display: block;
