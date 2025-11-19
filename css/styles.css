@@ -694,7 +694,7 @@ overflow: hidden;
 }
 
 .modal-form {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-title {
@@ -812,7 +812,7 @@ margin-bottom: 16px;
 }
 
 .checkbox-input:checked + .checkbox-label .checkbox-icon {
-  fill: #f4f4fd;
+  fill: var(--checkbox-icon-fill);
 }
 
 .privacy-link {
