@@ -693,10 +693,6 @@ overflow: hidden;
   fill: #ffffff;
 }
 
-.modal-form {
-  margin-bottom: 8px;
-}
-
 .modal-title {
 font-weight: 500;
 font-size: 16px;
@@ -706,6 +702,11 @@ text-align: center;
 color: #2e2f42;
 margin-bottom: 16px;
 }
+
+.modal-form {
+  margin-bottom: 8px;
+}
+
 
 .user-label {
   display: block;
